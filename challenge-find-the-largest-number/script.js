@@ -1,29 +1,7 @@
-// First Solution with using "FOR LOOP" method.
-// function calculateLargestNumber(arrayOfNumbers) {
-//   let largest = 0;
-//   for(let i = 0; i < arrayOfNumbers.length; i++){
-//     if(arrayOfNumbers[i] > largest){
-//       largest = arrayOfNumbers[i];
-//     }
-//   }
-//   return largest;
-// }
-
-// Second ?Solution with using "FOREACH" method
-// function calculateLargestNumber(arrayOfNumbers) {
-//   let largest = 0;
-//   arrayOfNumbers.forEach((num) => {
-//     if(num > largest) {
-//       largest = num
-//     }
-//   })
-//   return largest;
-// }
-
-// Third Solution with using "REDUCE" Method
 function calculateLargestNumber(arrayOfNumbers) {
-  let largest = arrayOfNumbers.reduce((a, b) => Math.max(a, b))
-  return largest
+  // Write your code in here
+
+  return 1;
 }
 
 /**                            */
@@ -42,7 +20,7 @@ let randomList = generateLargeListOfNumbers();
 let largestRandom = calculateLargestNumber(generateLargeListOfNumbers());
 console.log(
   "Given the array of random numbers that looks like this: " +
-    randomList.toString()
+  randomList.toString()
 );
 
 console.log("");
